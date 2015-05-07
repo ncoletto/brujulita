@@ -26,7 +26,7 @@
     function startWatch() {
 
         //EJERCICIO 1 (2)
-        var options = { frequency: 500 };
+        var options = { frequency: 1 };
         watchID = navigator.compass.watchHeading(onSuccess, onError, options);
     }
 
